@@ -20,7 +20,7 @@ It allows users to view the current weather, a 5-day forecast, and get smart wea
 
 - **Frontend**: HTML, JavaScript (ES6), Tailwind CSS
 - **API**: [OpenWeatherMap API](https://openweathermap.org/api)
-Live Demo: https://ishfaqmir1.github.io/MY-WEATHER-APP/
+
 
 ---
 Author: Ishfaq Ahmad Mir
