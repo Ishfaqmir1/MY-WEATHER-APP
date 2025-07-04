@@ -22,6 +22,7 @@ It allows users to view the current weather, a 5-day forecast, and get smart wea
 - **API**: [OpenWeatherMap API](https://openweathermap.org/api)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ---
 Author: Ishfaq Ahmad Mir
@@ -30,3 +31,8 @@ Author: Ishfaq Ahmad Mir
 
 Author: Ishfaq Ahmad Mir
 >>>>>>> f38809b (Add live link to README)
+=======
+
+---
+Author: Ishfaq Ahmad Mir
+>>>>>>> 8534fc9c7565bca4e98872ac590b7a9751581cda

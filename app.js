@@ -19,7 +19,11 @@ const pressure = document.getElementById('pressure');
 const forecastContainer = document.getElementById('forecastContainer');
 const errorBox = document.getElementById('error');
 
+<<<<<<< HEAD
 //  Search + Geolocation
+=======
+// 🔍 Search + Geolocation
+>>>>>>> 8534fc9c7565bca4e98872ac590b7a9751581cda
 searchBtn.onclick = () => {
   const city = cityInput.value.trim();
   if (!city) return showError("Please enter a city");
@@ -39,7 +43,11 @@ cityInput.addEventListener('keypress', e => {
   if (e.key === 'Enter') searchBtn.click();
 });
 
+<<<<<<< HEAD
 //  API Calls
+=======
+// 🌐 API Calls
+>>>>>>> 8534fc9c7565bca4e98872ac590b7a9751581cda
 function fetchWeather(city) {
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
     .then(res => res.json())
@@ -88,7 +96,11 @@ function fetchForecast(city) {
     });
 }
 
+<<<<<<< HEAD
 //  UI Updates
+=======
+// 📊 UI Updates
+>>>>>>> 8534fc9c7565bca4e98872ac590b7a9751581cda
 function renderWeather(data) {
   weatherIcon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`;
   weatherIcon.classList.remove('hidden');
@@ -105,7 +117,11 @@ function renderWeather(data) {
   hideError();
 }
 
+<<<<<<< HEAD
 //  Slide-in Drawer for Details
+=======
+// 🪟 Slide-in Drawer for Details
+>>>>>>> 8534fc9c7565bca4e98872ac590b7a9751581cda
 function showForecastDetails(data) {
   const drawer = document.getElementById('forecastDrawer');
   const content = document.getElementById('drawerContent');
@@ -130,7 +146,11 @@ document.getElementById('closeDrawer').onclick = () => {
   document.getElementById('forecastDrawer').classList.add('translate-x-full');
 };
 
+<<<<<<< HEAD
 //  Helpers
+=======
+// 🧠 Helpers
+>>>>>>> 8534fc9c7565bca4e98872ac590b7a9751581cda
 function getWeatherAdvice(condition) {
   if (condition.includes("rain") || condition.includes("drizzle")) return "Carry an umbrella ☔";
   if (condition.includes("thunderstorm")) return "Stay indoors ⛈️";
